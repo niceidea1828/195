@@ -1,0 +1,16 @@
+.wrapper {
+  padding: 24px;
+}
+
+.box {
+  width: 49px;
+  height: 49px;
+
+  border-radius: 10px;
+  background: rgba(116, 116, 116, 0.72);
+}
+
+.agree_cont {
+  gap: 5px;
+  margin: 40px auto auto;
+}

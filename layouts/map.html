@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/common_style.css" />
+    <link rel="stylesheet" href="../styles/map.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <a href="liked.html" class="back">
+          <img src="../png/back.png" alt="" />
+        </a>
+
+        <div class="title">Игорныe зоны</div>
+      </div>
+
+      <div class="pic"></div>
+
+      <div class="header2">
+        <div>Рейтинг игроков:</div>
+        <div class="stars">
+          <img src="../png/star.png" alt="" />
+          <img src="../png/star.png" alt="" />
+          <img src="../png/star.png" alt="" />
+        </div>
+      </div>
+
+      <div id="map" style="width: 327px; height: 354px"></div>
+
+      <div class="footer block">
+        <a href="main.html">
+          <img src="../png/m1.png" alt="" class="na" />
+        </a>
+
+        <a href="liked.html">
+          <img src="../png/m2.png" alt="" />
+        </a>
+
+        <a href="../index.html">
+          <img src="../png/m3.png" alt="" class="na" />
+        </a>
+      </div>
+    </div>
+
+    <script src="https://api-maps.yandex.ru/3.0/?apikey=1f4fb138-7c01-4b45-a44a-9785ed88e801&lang=ru_RU"></script>
+    <script src="../scripts/jQuery.js"></script>
+    <script src="../scripts/map.js"></script>
+  </body>
+</html>

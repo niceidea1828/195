@@ -1,0 +1,28 @@
+.header {
+  width: 327px;
+  margin: 48px auto 12px;
+
+  font-size: 21px;
+  font-weight: 900;
+}
+
+.pics {
+    margin: auto auto 110px;
+}
+
+.pic {
+  position: relative;
+  width: 327px;
+  margin: 12px auto auto;
+}
+
+.zone {
+  width: 100%;
+}
+
+.heart {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
